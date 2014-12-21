@@ -2,11 +2,11 @@ package demo
 
 import "fmt"
 
-func Fibonacci(number int) int {
-	if number < 2 {
-		return number
+func Fibonacci(n int) int {
+	if n < 2 {
+		return n
 	}
-	return Fibonacci(number-1) + Fibonacci(number-2)
+	return Fibonacci(n-1) + Fibonacci(n-2)
 }
 
 func main() {
